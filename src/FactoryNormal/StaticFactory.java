@@ -1,18 +1,16 @@
 package FactoryNormal;
 
 /**
- * 是对普通工厂方法模式的改进，
- * 在普通工厂方法模式中，
- * 如果传递的字符串出错，则不能正确创建对象，
- * 而多个工厂方法模式是提供多个工厂方法
+ * 将多个工厂方法模式里的方法置为静态的，
+ * 不需要创建实例，直接调用即可。
  * Created by Sheng on 2017/9/30.
  */
 public class StaticFactory {
-    public User produceQQ(){
+    public static User produceQQ(){
         return new QQUser();
     }
 
-    public User produceWeChat(){
+    public static User produceWeChat(){
         return new WeChatUser();
     }
 }
