@@ -5,10 +5,8 @@ import AbstractFactory.User;
 import AbstractFactory.WeChatUser;
 
 /**
- * 是对普通工厂方法模式的改进，
- * 在普通工厂方法模式中，
- * 如果传递的字符串出错，则不能正确创建对象，
- * 而多个工厂方法模式是提供多个工厂方法
+ * 抽象工厂的实现类
+ * WeChat工厂类
  * Created by Sheng on 2017/9/30.
  */
 public class WeChatuserFactory {
