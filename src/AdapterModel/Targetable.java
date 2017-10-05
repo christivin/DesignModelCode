@@ -1,6 +1,7 @@
 package AdapterModel;
 
 /**
+ * 目标接口
  * Created by Sheng on 2017/10/5.
  */
 public interface Targetable {
