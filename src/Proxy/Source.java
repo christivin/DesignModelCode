@@ -1,6 +1,7 @@
 package Proxy;
 
 /**
+ * 被代理类
  * Created by Sheng on 2017/10/7.
  */
 class Source implements Sourceable{
