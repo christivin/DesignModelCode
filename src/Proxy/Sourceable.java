@@ -8,5 +8,6 @@ package Proxy;
  * Created by Sheng on 2017/10/7.
  */
 interface Sourceable {
-    public void method();
+     void method();//接口中的方法默认为public的，实现接口中定义的方法时，必须定义为public
+                   // 否则它们将只能得到默认的包访问权限，这样在方法被继承的过程中可访问权限降低，是不允许的
 }
