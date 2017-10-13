@@ -1,7 +1,7 @@
 package Observer;
 
 /**
- * 1
+ * 
  * Created by Sheng on 2017/10/11.
  */
 public class ObserverTest {
