@@ -1,7 +1,7 @@
 package Observer;
 
 /**
- * 
+ *
  * Created by Sheng on 2017/10/11.
  */
 public class ObserverTest {
@@ -10,6 +10,7 @@ public class ObserverTest {
         sub.add(new Observer1());
         sub.add(new Observer2());
 
+        
         sub.operation();
     }
 }
