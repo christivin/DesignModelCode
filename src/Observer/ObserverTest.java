@@ -10,6 +10,9 @@ public class ObserverTest {
         sub.add(new Observer2());
 
 
+
+
+
         sub.operation();
     }
 }
