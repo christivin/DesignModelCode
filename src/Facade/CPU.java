@@ -10,5 +10,6 @@ public class CPU {
 
     public void shutdown (){
         System.out.println("cpu Shutdown!");
+
     }
 }
