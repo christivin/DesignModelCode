@@ -12,6 +12,7 @@ public class Computer {
         cpu = new CPU();
         memory = new Memory();
         disk = new Disk();
+
     }
 
     public void startup(){
