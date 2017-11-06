@@ -8,4 +8,5 @@ public class QQUser implements User{
     public void UserInfo(){
         System.out.println("我是QQ用户！");
     }
+
 }
