@@ -11,7 +11,6 @@ public class MultiFactory {
     public User produceQQ(){
         return new QQUser();
     }
-
     public User produceWeChat(){
         return new WeChatUser();
     }
