@@ -13,6 +13,7 @@ public class MultiFactoryTest {
         //生产WeChat
         sender = factory.produceWeChat();
         sender.UserInfo();
+
     }
 }
 
