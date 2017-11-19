@@ -11,6 +11,5 @@ public class FacadeTest {
         Computer computer = new Computer();
         computer.startup();
         computer.shutdown();
-
     }
 }
