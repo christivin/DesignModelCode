@@ -24,5 +24,6 @@ public class Builder{
         for(int i=0; i<count; i++){
             list.add(new WeChatUser());
         }
+
     }
 }
