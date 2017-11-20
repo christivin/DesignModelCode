@@ -17,6 +17,7 @@ public class Builder{
     public void produceQQUser(int count){
         for(int i=0; i<count; i++){
             list.add(new QQUser());
+
         }
     }
 
