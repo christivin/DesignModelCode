@@ -4,7 +4,6 @@ package Facade;
  * Created by Sheng on 2017/10/9.
  */
 public class Memory {
-
     public void startup(){
         System.out.println("Memory Startup!");
     }
