@@ -5,5 +5,4 @@ package Builder;
  */
 public interface User {
     public void UserInfo();
-
 }
