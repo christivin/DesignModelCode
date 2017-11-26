@@ -10,4 +10,6 @@ public class Memory {
     public void shutdown(){
         System.out.println("Memory Shutdown!");
     }
+
 }
+
