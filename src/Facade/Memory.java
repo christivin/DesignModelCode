@@ -8,7 +8,6 @@ public class Memory {
         System.out.println("Memory Startup!");
     }
 
-
     public void shutdown(){
         System.out.println("Memory Shutdown!");
     }
