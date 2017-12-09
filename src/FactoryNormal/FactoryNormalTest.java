@@ -17,5 +17,6 @@ public class FactoryNormalTest {
         //当user重新加载WeChat后上面工厂生成的QQ用户可能会被垃圾回收
         user = userFactory.produce("WeChat");
         user.UserInfo();
+
     }
 }
