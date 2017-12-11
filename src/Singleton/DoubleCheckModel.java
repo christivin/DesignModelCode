@@ -19,5 +19,6 @@ public class DoubleCheckModel {
             }
         }
             return intance;
+
     }
 }
