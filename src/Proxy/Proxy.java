@@ -21,4 +21,5 @@ class Proxy implements Sourceable{
     private void after(){
         System.out.println("之后");
     }
+
 }
