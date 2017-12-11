@@ -9,4 +9,5 @@ class Source implements Sourceable{
     public void method() {
         System.out.println("原始方法!");
     }
+
 }
