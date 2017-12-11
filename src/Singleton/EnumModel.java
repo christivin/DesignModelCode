@@ -7,5 +7,6 @@ package Singleton;
 public enum EnumModel {
     INSTANCE;
     public void whateverMethod() {
+
     }
 }
