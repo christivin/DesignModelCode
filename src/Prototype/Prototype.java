@@ -13,4 +13,5 @@ public class Prototype implements Cloneable {
         Prototype proto = (Prototype) super.clone();
         return proto;
     }
+
 }
