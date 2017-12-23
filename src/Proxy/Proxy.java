@@ -18,6 +18,7 @@ class Proxy implements Sourceable{
     private void before(){
         System.out.println("之前");
     }
+
     private void after(){
         System.out.println("之后");
     }
