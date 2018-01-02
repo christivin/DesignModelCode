@@ -11,6 +11,7 @@ class Proxy implements Sourceable{
     }
     @Override
     public void method(){
+
         before();
         source.method();
         after();
