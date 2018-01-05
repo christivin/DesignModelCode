@@ -20,6 +20,7 @@ class Proxy implements Sourceable{
         System.out.println("之前");
     }
 
+
     private void after(){
         System.out.println("之后");
     }
