@@ -20,6 +20,7 @@ public class Tree {
 
         nodeB.add(nodeC);
         tree.root.add(nodeB);
+
         System.out.println("build the tree finished!");
 
     }
