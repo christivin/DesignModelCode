@@ -14,6 +14,7 @@ public class Computer {
         disk = new Disk();
     }
 
+
     public void startup(){
         System.out.println("start the computer!");
         cpu.startup();
