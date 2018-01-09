@@ -12,6 +12,7 @@ public class Tree {
         root = new TreeNode(name);
     }
 
+
     public static void main(String[] args){
         Tree tree = new Tree("A");
         TreeNode nodeB = new TreeNode("B");
