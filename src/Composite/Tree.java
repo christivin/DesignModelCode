@@ -19,6 +19,7 @@ public class Tree {
         TreeNode nodeC = new TreeNode("C");
 
         nodeB.add(nodeC);
+        
         tree.root.add(nodeB);
 
         System.out.println("build the tree finished!");
