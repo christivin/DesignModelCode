@@ -15,6 +15,7 @@ public class Computer {
     }
 
 
+
     public void startup(){
         System.out.println("start the computer!");
         cpu.startup();
