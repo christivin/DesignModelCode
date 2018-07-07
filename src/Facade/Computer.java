@@ -19,6 +19,7 @@ public class Computer {
         System.out.println("start the computer!");
         cpu.startup();
         memory.startup();
+
         disk.startup();
         System.out.println("start computer finished!");
     }
