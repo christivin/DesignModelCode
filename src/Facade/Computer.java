@@ -11,6 +11,7 @@ public class Computer {
     public Computer(){
         cpu = new CPU();
         memory = new Memory();
+
         disk = new Disk();
     }
 
